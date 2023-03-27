@@ -35,7 +35,7 @@ export default function Home() {
         {
           data && data.map((info, index) => {
             return(
-              <Accordion key={index} term={info.term} code={info.code} title={info.title} credits={info.credits} description={info.description}/>
+              <Accordion key={index} term={info.term} code={info.code} totle={info.title} credits={info.credits} description={info.description}/>
             )
           })
         }
